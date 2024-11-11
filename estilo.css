@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #3e0000, #101010, #000000, #5d0000);
+  }
+  
+  .card {
+    text-align: center;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    transition: transform 0.3s ease, border 0.3s ease;
+    border: 2px solid transparent;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    border-color: #ff0000;
+    box-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000;
+  }
+  
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #ff0000;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #aaa;
+    margin: 10px 0 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Estilo base para todos os botões */
+.button {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, box-shadow 0.3s;
+  }
+  
+  /* WhatsApp - Neon Verde */
+  .whatsapp {
+    background: #25D366; /* Cor do WhatsApp */
+  }
+  .whatsapp:hover {
+    box-shadow: 0 0 1px #25D366, 0 0 16px #25D366, 0 0 24px #25D366; /* Neon verde */
+  }
+  
+  /* Instagram - Neon com Gradiente */
+  .instagram {
+    background: linear-gradient(45deg, #833AB4, #E1306C, #FD1D1D, #FCAF45); /* Gradiente do Instagram */
+  }
+  .instagram:hover {
+    box-shadow: 0 0 1px #FCAF45, 0 0 16px #FD1D1D, 0 0 24px #833AB4; /* Neon usando cores do gradiente */
+  }
+  
+  /* Facebook - Neon Azul */
+  .facebook {
+    background: #4267B2; /* Cor do Facebook */
+  }
+  .facebook:hover {
+    box-shadow: 0 0 1px #4267B2, 0 0 16px #4267B2, 0 0 24px #4267B2; /* Neon azul */
+  }
+  
+  /* Website - Neon Vermelho Vinho */
+  .website {
+    background: #8B0000; /* Cor do site (vermelho vinho) */
+  }
+  .website:hover {
+    box-shadow: 0 0 1px #8B0000, 0 0 16px #8B0000, 0 0 24px #8B0000; /* Neon vermelho vinho */
+  }
+  
+  .developer{
+    color: white;
+    font-size: 10px;
+  }
